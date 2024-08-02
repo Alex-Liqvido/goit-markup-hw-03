@@ -213,6 +213,10 @@ a {
 /*section Team */
 
 .team-section {
+  padding: 120px 0;
+}
+
+.team-section {
   background-color: #f4f4fd;
 }
 
@@ -231,6 +235,11 @@ a {
   background-color: #fff;
 }
 
+.team-item {
+  display: flex;
+  gap: 24px;
+}
+
 .team-heading {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -239,6 +248,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-text {
