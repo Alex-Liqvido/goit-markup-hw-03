@@ -177,6 +177,7 @@ a {
 }
 
 .visually-hidden {
+  margin-bottom: 8px;
   display: none;
 }
 
