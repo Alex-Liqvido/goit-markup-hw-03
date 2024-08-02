@@ -153,6 +153,7 @@ a {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-top: 48px;
 }
 
 .action-button:hover,
@@ -171,6 +172,14 @@ a {
 
 /*section Key values */
 
+.values-section {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  display: none;
+}
+
 .heading-values {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -178,6 +187,17 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.values-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.values-item {
+  width: calc((100% - 72px) / 4);
+  padding: 20px;
 }
 
 .values-text {
