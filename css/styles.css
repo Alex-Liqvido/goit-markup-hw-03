@@ -124,6 +124,7 @@ a {
 .business-section {
   background: #2e2f42;
   text-align: center;
+  padding: 188px 0;
 }
 
 .section-heading {
@@ -151,6 +152,7 @@ a {
   min-width: 169px;
   height: 56px;
   border: none;
+  border-radius: 4px;
 }
 
 .action-button:hover,
