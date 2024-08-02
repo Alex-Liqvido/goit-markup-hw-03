@@ -134,6 +134,9 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  display: block;
+  margin: auto;
 }
 
 .action-button {
@@ -143,6 +146,11 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
   color: #ffffff;
+  display: block;
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .action-button:hover,
