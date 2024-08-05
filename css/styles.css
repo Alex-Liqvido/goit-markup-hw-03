@@ -290,8 +290,8 @@ gi
 
 .portfolio-section {
   background-color: #f4f4fd;
-  
-  padding: 120px 0 120px 0
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 
@@ -310,7 +310,7 @@ gi
 .portfolio-list .portfolio-item {
   background-color: #fff;
 }
-.portfolio-list{
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -323,8 +323,13 @@ gi
 }
 
 .portfolio-info {
-  padding: 32px 0;
+  padding: 32px 16px;
   text-align: center;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  text-align: center;
+  
 }
 
 .portfolio-foto {
@@ -338,6 +343,7 @@ gi
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-family: 'Roboto', sans-serif;
