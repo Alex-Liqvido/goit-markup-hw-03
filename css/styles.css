@@ -196,7 +196,6 @@ img {
 
 .values-item {
   width: calc((100% - 72px) / 4);
-  padding: 20px;
 }
 
 .values-text {
@@ -312,11 +311,9 @@ img {
 
 .portfolio-info {
   padding: 32px 16px;
-  text-align: center;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  text-align: center;
 }
 
 .portfolio-foto {
